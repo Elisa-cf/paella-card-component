@@ -23,13 +23,15 @@ const Image = styled.img`
   height: 200px;
 ` 
 const Title = styled.h2`
+// text-align: center;
 padding-left: 20px;
 font-size: 33px;
-
 `
 
 const Text = styled.p`
+// text-align: center;
 margin: 1rem;
+margin-top: -10px;
 font-size: 21px;
 `
 const Button = styled.button`
@@ -62,12 +64,12 @@ function App() {
     <Container>
             <Image src={'./paella.jpg'} alt=''></Image>
               <Title>Paella Poem</Title>
-            <Text>Oh paella! My tummy is happy with you.<br/>
-                  You smell so good.<br/>
-                  Your taste crazy amazing.<br/>
-                  You makes Sundays a day to celebrate.<br/>
-                  You are the queen of the after-dinner meals.<br/>
-                  Naps with you are on another level.<br/>
+            <Text>Oh paella!<br/>
+                  The queen of the after-dinner meals.<br/>
+                  You smell and taste so good.<br/>
+                  My tummy is happy with you.<br/>
+                  You make Sunday a cool day.<br/>
+                  Naps are on another level.<br/>
                   Long live the paella!
             </Text>
             <Button><Link href="https://www.pequerecetas.com/receta/paella-valenciana/"
